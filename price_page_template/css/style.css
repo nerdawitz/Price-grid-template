@@ -1,0 +1,138 @@
+body{
+	background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+/* CLASSES CSS - SORTED ALPHABETICALLY */
+
+.content-container{
+	border-radius: 8px;
+	height: 32rem;
+	margin: 10rem auto;
+	width: 42rem;
+}
+.head-and-info{
+	padding: 1px;
+	width: 35rem;
+}
+.head-and-info h2{
+	color: hsl(71, 73%, 54%);
+}
+.head-and-info p{
+	color: hsl(218, 22%, 67%);
+}
+.head-intro{
+	background-color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 15rem;
+	padding: 1px;
+	width: 99.5%;
+}
+.main-heading{
+	color: hsl(179, 62%, 43%);
+	width: 20rem;
+}
+.main-heading,.head-and-info{
+	padding-left: 2rem;
+}
+.price-and-info{
+	height: 16.8rem;
+	padding: 1px;
+	width: 100%;
+}
+.price-info{
+	height: 7rem;
+	padding: 1rem 2rem;
+}
+.price-info h1{
+	display: inline;
+	color: white;
+}
+.price-info h2,p{
+	color: white;
+}
+.price-info span{
+	color: hsl(204, 43%, 93%);
+}
+.prinfo-left-part{
+	background-color: hsl(179, 62%, 43%);
+	border-bottom-left-radius: 8px;
+	float: left;
+	width: 49.3%;
+	height: 16.8rem;
+}
+.prinfo-right-part{
+	background-color: hsl(179, 62%, 48%);
+	border-bottom-right-radius: 8px;
+	float: left;
+	width: 50.4%;
+	height: 16.8rem;
+}
+.sign-butt{
+	background-color: hsl(71, 73%, 54%);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	height: 40px;
+	outline-style: none;
+	width: 12rem;
+}
+.sign-butt:hover{
+	opacity: 0.9;
+}
+.sign-butt-wrapper{
+	margin-left: 4rem;
+	margin-top: 4rem;
+}
+.why-content{
+	padding: 1rem 2rem;
+}
+.why-content h2{
+	color: white;
+}
+.why-content li{
+	color: hsl(204, 43%, 93%);
+}
+.why-content ul{
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 692px){
+	.content-container{
+		margin: 3rem auto;
+		width: 385px;
+	}
+	.head-intro{
+		height: 300px;
+		width: 385px;
+	}
+	.main-heading,.head-and-info{
+		width: 350px;
+	}
+	.price-info{
+		padding: 1rem 4rem;
+	}
+	.prinfo-left-part{
+		border-radius: 0;
+		float: none;
+		width: 100%;
+	}
+	.prinfo-right-part{
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+		float: none;
+		width: 100%;
+	}
+	.sign-butt{
+		width: 20rem;
+	}
+	.sign-butt-wrapper{
+		margin: 4rem 2rem;
+	}
+	.why-content{
+		height: 18rem;
+		padding: 1rem 4rem;
+	}
+}
